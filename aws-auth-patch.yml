@@ -15,8 +15,8 @@ metadata:
   annotations:
     kubectl.kubernetes.io/last-applied-configuration: |
       {"apiVersion":"v1","data":{"mapRoles":"- rolearn: \u003cARN of instance role (not instance profile)\u003e\n  username: system:node:{{EC2PrivateDNSName}}\n  groups:\n    - system:bootstrappers\n    - system:nodes\n"},"kind":"ConfigMap","metadata":{"annotations":{},"name":"aws-auth","namespace":"kube-system"}}
-  creationTimestamp: "2025-08-13T09:24:03Z"
+  creationTimestamp: "2026-01-18T20:47:00Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1222"
-  uid: 4f193228-4c0a-48f5-a62e-2a56980077df
+  resourceVersion: "1114"
+  uid: 9f33c5a7-a8af-42c1-99e9-abe51d83181e
